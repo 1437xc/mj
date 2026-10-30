@@ -1,0 +1,4 @@
+torch==2.3.1
+tensordict==0.1.0
+numpy==1.26.4
+PyMahjongGB

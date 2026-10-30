@@ -1,0 +1,20 @@
+{
+  "seed": 2026,
+  "hidden": 64,
+  "capacity": 128,
+  "actors": 4,
+  "episodes_per_actor": 1,
+  "iterations": 2000,
+  "device": "cpu",
+  "actor_timeout": 300,
+  "ppo": {
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "learning_rate": 0.0003,
+    "epochs": 3,
+    "minibatch_size": 256,
+    "clip_epsilon": 0.2,
+    "value_coefficient": 0.5,
+    "entropy_coefficient": 0.01
+  }
+}
